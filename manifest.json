@@ -3,6 +3,10 @@
   "name": "Pinterest Clean Profile",
   "version": "1.0",
   "description": "Fixes the positioning of the profile header on Pinterest by changing position: sticky to position: relative",
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
   "permissions": ["activeTab"],
   "content_scripts": [
     {
