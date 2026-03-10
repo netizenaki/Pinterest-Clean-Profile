@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Pinterest Clean Profile",
+  "version": "1.0",
+  "description": "Fixes the positioning of the profile header on Pinterest by changing position: sticky to position: relative",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.pinterest.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
