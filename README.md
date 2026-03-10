@@ -12,15 +12,3 @@ This extension fixes the annoying sticky positioning of the profile header on Pi
 5. Select the `manifest.json` file from the folder
 6. The extension will be temporarily installed
 
-### For Chrome:
-1. Download or clone this repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the folder containing `manifest.json`
-5. The extension should now be installed
-
-## Compatibility
-
-- Firefox (Manifest V2)
-- Chrome (Manifest V3)
-- Works on all Pinterest profile pages
